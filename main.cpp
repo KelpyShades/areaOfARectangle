@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float l,b,area;
+    cout<< "@@@...Program To Find The Area Of Rectangle...@@@\n" <<endl;
+    cout<<"Length?" <<endl;
+    cin>>l;
+    cout<<"Breadth?" <<endl;
+    cin>>b;
+    area = l * b;
+    cout<<"The Area Of Your Rectangle Is: "<<area<<"cm^2" <<endl;
+    return 0;
+}
